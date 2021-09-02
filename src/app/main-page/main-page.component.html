@@ -1,0 +1,38 @@
+<div class="wrapper">
+    <div class="navigation-bar">
+        <h1>SA-INTRANET</h1>
+        <ul>
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+        </ul>
+    </div>
+
+    <div class="header">
+        test content
+    </div>
+
+</div>
+
+<div class="announcement-wrapper">
+    <div class="announcement-tools-container">
+        <button type="button">+ Add Announcement</button>
+        <input type="text" placeholder="Search" class="search">
+    </div>    
+</div>
+
+<div class="announcements-container">
+    <app-announcements *ngFor="let announcement of announcements" [announcement]="announcement"></app-announcements>
+</div>
+
+
+
+<!-- <div style="background-color: white;font-weight: 700;padding-top: 10px;padding-bottom: 10px;">
+Tab Name
+</div>
+
+<div class="row">
+    <span style="float: right;">
+        <input type="text" placeholder="Search">
+        <button type="button" class="btn btn-success">Add Announcement</button>
+    </span>
+</div> -->

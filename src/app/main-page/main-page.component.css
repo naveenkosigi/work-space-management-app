@@ -1,0 +1,76 @@
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+.navigation-bar ul{
+    padding-left: 0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.navigation-bar{
+    background-color:red;
+    position: fixed;
+    height: 100%;
+    width: 190px;
+    background-color: #252e35;
+}
+
+.header{
+    background-color: white;
+    margin-left: 190px;
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+.announcement-tools-container > *{
+    margin-top:19px;
+    float: right;
+}
+
+.search{
+    background-color: white;
+    margin-right: 46px;
+    padding: 6px;
+    font-size: small;
+}
+
+.announcement-tools-container button{
+    background-color: #04AA6D;
+    padding: 4px;
+    margin-right: 10px;
+    color: white;
+    font-size: small;
+    padding: 8px;
+}
+
+
+.search::-webkit-input-placeholder {
+    /* IE 10- */
+    background-image: url('../../images/search-icon.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
+.announcements-container{
+    margin-left: 240px;
+    clear: both;
+    margin-top: 72px;
+    margin-right: 10px;
+}
+
+.announcement-wrapper{
+    width: 100%;
+}

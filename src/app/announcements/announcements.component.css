@@ -1,0 +1,23 @@
+.announcement-component{
+    display: flex;
+    margin-bottom: 21px;
+    background-color: white;
+}
+
+.announcement-component-content{
+    margin-top: 24px;
+}
+
+.announcement-component-title{
+    font-weight: bold;
+}
+
+.announcement-component-description{
+    margin-top: 16px;
+    margin-bottom: 17px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.calendar-icon{
+    width: 21px;
+}
