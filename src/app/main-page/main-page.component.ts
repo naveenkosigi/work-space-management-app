@@ -7,6 +7,7 @@ import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angula
 })
 export class MainPageComponent implements OnInit,AfterViewInit {
   @ViewChild('modal',{static:false}) modal :any;
+  announcementType:string="announcement";
 
   announcements=[{title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdandskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',
   date:'04 Feb, 2019'

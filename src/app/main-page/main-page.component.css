@@ -99,7 +99,7 @@
     font-size: 13px;
 }
 
-.category-wrapper button:hover{
+.category-wrapper button:hover,.category-wrapper button.active{
     background-color: #04AA6D;
     color: white;
 }

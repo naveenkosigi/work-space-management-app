@@ -39,13 +39,13 @@
 
                 <div class="category-wrapper">
                     <label>Select Category</label><br>
-                    <button type="button">Announcement</button> &nbsp;
+                    <button type="button" [ngClass]="{'active':announcementType === 'announcement'}">Announcement</button> &nbsp;
                     <button type="button">Event</button>    &nbsp;
                     <button type="button">Reminder</button> &nbsp;
                 </div>
 
                 <div class="date-wrapper">
-                    <label>Expiry Date</label> <br>
+                    <label style="display: inline-block;margin-bottom: 3px;">Expiry Date</label> <br>
                     <input type="text" class="date-input" placeholder="date">
                 </div>
             </form>
