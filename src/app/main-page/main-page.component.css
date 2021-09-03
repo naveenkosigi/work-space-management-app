@@ -64,3 +64,42 @@
 .announcement-wrapper{
     width: 100%;
 }
+
+.announcement-form{
+    margin-top:59px;
+    font-weight: 400;
+    color: rgb(0 0 0 / 35%);
+}
+
+.form-title{
+    border-width: 2px;
+    border-color: rgba(0,0,0,.05);
+    width: 100%;
+    margin-top: 4px;
+    border-width: 3px;
+    border-style: groove;
+    padding: 2px;
+}
+
+.category-wrapper{
+    margin-top:39px;
+}
+
+.category-wrapper button{
+    background-color: rgba(0,0,0,.05);
+    border: none;
+    color: grey;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 13px;
+}
+
+.category-wrapper button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
