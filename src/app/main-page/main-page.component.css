@@ -104,7 +104,7 @@
     color: white;
 }
 
-.date-wrapper{
+.date-wrapper,.description-wrapper{
     margin-top: 39px;
 }
 
@@ -121,4 +121,12 @@
     background-size:contain;
     background-repeat: no-repeat;
     text-indent: 20px;
+}
+
+.announcement-description{
+    border-style: groove;
+    border-color: rgba(0,0,0,.05);
+    border-width: 3px;
+    width:100%;
+    resize: none;
 }
