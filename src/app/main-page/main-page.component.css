@@ -140,10 +140,11 @@
 
 .org-container{
     color: #04AA6D;
-    font-size: 21px;
+    font-size: 18px;
     padding-left: 7px;
     padding-top: 24px;
     margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
 .hamburger-icon{
@@ -162,7 +163,7 @@
 .navigation-bar li img{
     width: 26px;
     vertical-align: middle;
-    margin-right: 19px;
+    margin-right: 11px;
     height: 24px;
 }
 
@@ -171,7 +172,7 @@
 }
 
 .navigation-bar .highlight{
-    display: inline-block;
+    display: block;
     width: 100%;
     margin-bottom: 30px;
 }

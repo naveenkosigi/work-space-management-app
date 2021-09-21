@@ -4,6 +4,7 @@
     background-color: white;
     padding: 10px;
     box-shadow: 5px 10px 8px #888888;
+    border-radius: 33px;
 }
 
 .announcement-component-content{
