@@ -15,8 +15,10 @@ export class AnnouncementsComponent implements OnInit,AfterViewInit {
   }
 
   ngAfterViewInit(){
-    this.announcementComponent.nativeElement.style.display="";
-    this.announcementComponent.nativeElement.classList.add('slider-animate');
+    window.setTimeout(() => {
+      this.announcementComponent.nativeElement.style.display="";
+      this.announcementComponent.nativeElement.classList.add('slider-animate');
+    },1000);
   }
 
 
