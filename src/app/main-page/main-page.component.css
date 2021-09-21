@@ -195,3 +195,17 @@
 .announcement-form label{
     color: black;
 }
+
+.slider-animate{
+    animation: slider 0.7s ease-in;
+}
+
+@keyframes slider {
+    0%{
+        transform: translateX(500px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}

@@ -7,6 +7,7 @@ import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angula
 })
 export class MainPageComponent implements OnInit,AfterViewInit {
   @ViewChild('modal',{static:false}) modal :any;
+  @ViewChild('eventTypeContainer',{static:false}) eventTypeContainer : any;
   eventType:string="announcement";
 
   announcements=[{title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdandskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',
@@ -59,5 +60,11 @@ export class MainPageComponent implements OnInit,AfterViewInit {
 
   addAnnouncement() : void{
     this.modal.nativeElement.style.display="block";
+  }
+
+  addEventTypeContainer() : void{
+    this.eventType="event";
+    this.eventTypeContainer.nativeElement.style.display="block";
+    this.eventTypeContainer.nativeElement.classList.add('slider-animate');
   }
 }

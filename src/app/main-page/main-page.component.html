@@ -46,7 +46,7 @@
                 <div class="category-wrapper">
                     <label>Select Category</label><br>
                     <button type="button" [ngClass]="{'active':eventType === 'announcement'}">Announcement</button> &nbsp;
-                    <button type="button" [ngClass]="{'active':eventType === 'event'}">Event</button>    &nbsp;
+                    <button type="button" [ngClass]="{'active':eventType === 'event'}" (click)="addEventTypeContainer()">Event</button>    &nbsp;
                     <button type="button" [ngClass]="{'active':eventType === 'reminder'}">Reminder</button> &nbsp;
                 </div>
                 <div class="announcement-type-container" *ngIf="eventType === 'announcement'">
@@ -66,6 +66,10 @@
                         <button type="button" class="cancel">DISCARD</button> &nbsp;
                         <button type="button" class="save">SAVE</button>
                     </div>
+                </div>
+
+                <div class="event-type-container" style="display: none;" #eventTypeContainer>
+                    EVENT TYPE
                 </div>
             </form>
         </div>
