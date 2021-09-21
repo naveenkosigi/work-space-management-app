@@ -151,3 +151,31 @@
     vertical-align: bottom;
     cursor: pointer;
 }
+
+.navigation-bar li{
+    color: white;
+    padding-left: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navigation-bar li img{
+    width: 26px;
+    vertical-align: middle;
+    margin-right: 19px;
+    height: 24px;
+}
+
+.navigation-bar ul{
+    list-style-type: none;
+}
+
+.navigation-bar .highlight{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.navigation-bar .highlight:hover,.navigation-bar .highlight.active{
+    background-color: #04AA6D;
+}
