@@ -45,26 +45,27 @@
 
                 <div class="category-wrapper">
                     <label>Select Category</label><br>
-                    <button type="button" [ngClass]="{'active':announcementType === 'announcement'}">Announcement</button> &nbsp;
-                    <button type="button">Event</button>    &nbsp;
-                    <button type="button">Reminder</button> &nbsp;
+                    <button type="button" [ngClass]="{'active':eventType === 'announcement'}">Announcement</button> &nbsp;
+                    <button type="button" [ngClass]="{'active':eventType === 'event'}">Event</button>    &nbsp;
+                    <button type="button" [ngClass]="{'active':eventType === 'reminder'}">Reminder</button> &nbsp;
                 </div>
-
-                <div class="date-wrapper">
-                    <label style="display: inline-block;margin-bottom: 3px;">Expiry Date</label> <br>
-                    <input type="date" class="date-input" placeholder="date">
-                </div>
-
-                <div class="description-wrapper">
-                    <label style="display: inline-block;margin-bottom: 3px;">Description</label> <br>
-                    <textarea class="announcement-description" rows="10" cols="100%">
-                    
-                    </textarea>    
-                </div>
-
-                <div class="button-containers">
-                    <button type="button" class="cancel">DISCARD</button> &nbsp;
-                    <button type="button" class="save">SAVE</button>
+                <div class="announcement-type-container" *ngIf="eventType === 'announcement'">
+                    <div class="date-wrapper">
+                        <label style="display: inline-block;margin-bottom: 3px;">Expiry Date</label> <br>
+                        <input type="date" class="date-input" placeholder="date">
+                    </div>
+    
+                    <div class="description-wrapper">
+                        <label style="display: inline-block;margin-bottom: 3px;">Description</label> <br>
+                        <textarea class="announcement-description" rows="10" cols="100%">
+                        
+                        </textarea>    
+                    </div>
+    
+                    <div class="button-containers">
+                        <button type="button" class="cancel">DISCARD</button> &nbsp;
+                        <button type="button" class="save">SAVE</button>
+                    </div>
                 </div>
             </form>
         </div>
