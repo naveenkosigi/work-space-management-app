@@ -12,7 +12,7 @@ export class MainPageComponent implements OnInit,AfterViewInit {
   announcements=[{title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdandskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',
   date:'04 Feb, 2019'
   },
-  {title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdandskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',
+  {title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdan sdfnfdsndfs jkdsfnjfdsnkdfs dfsjk fdkdsfnjfdsnjsdnkjfdnjkdfsdfjksdfnjfdnkjfdsnjkfdsnkjdfs fdsndsfjnfsdjnfdkjsndfkjdsffd kdfsnsdfjnfdskjnfdjkfdskjnfsdjkfdnkfdsnjkfsdfds dsnfdjknfdjkndfjkfds jdsnfkjdsnjkfdnfkdjsnfdsjknfdkjnfddfs kjdsnfjkndfskjfndjfdsn dfjsnfsdjnfdskjnsdfjfdsnjkdfsndfnfds dsnfdsjnfsdkjnfds jndsjnfdjnfdsjknfdsjnfdjknffsd dskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',
   date:'04 Feb, 2019'
   },
   {title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdandskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',

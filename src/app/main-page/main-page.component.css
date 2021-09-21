@@ -137,3 +137,17 @@
     font-size: small;
     padding: 8px;
 }
+
+.org-container{
+    color: #04AA6D;
+    font-size: 21px;
+    padding-left: 7px;
+    padding-top: 24px;
+    margin-bottom: 30px;
+}
+
+.hamburger-icon{
+    width: 22px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
