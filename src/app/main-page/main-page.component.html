@@ -31,7 +31,7 @@
     <div class="modal-content">
         <div class="modal-header">
             <span>Add New Announcement</span>
-            <span class="close" style="width:14px;height:25px;border:1px solid #000;background-color:#D0D0D0;">&times;</span>
+            <span class="close" style="width:14px;height:25px;border:1px solid #000;background-color:rgba(0,0,0,.05);">&times;</span>
 
             <form name="announcement-form" class="announcement-form">
                 <label for="title">Subject</label><br>
@@ -46,7 +46,7 @@
 
                 <div class="date-wrapper">
                     <label style="display: inline-block;margin-bottom: 3px;">Expiry Date</label> <br>
-                    <input type="text" class="date-input" placeholder="date">
+                    <input type="date" class="date-input" placeholder="date">
                 </div>
 
                 <div class="description-wrapper">
@@ -54,6 +54,11 @@
                     <textarea class="announcement-description" rows="4" cols="100%">
                     
                     </textarea>    
+                </div>
+
+                <div class="button-containers">
+                    <button type="button" class="cancel">DISCARD</button> &nbsp;
+                    <button type="button" class="save">SAVE</button>
                 </div>
             </form>
         </div>

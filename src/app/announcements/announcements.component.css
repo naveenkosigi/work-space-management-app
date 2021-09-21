@@ -2,6 +2,9 @@
     display: flex;
     margin-bottom: 21px;
     background-color: white;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .announcement-component-content{
@@ -32,4 +35,11 @@
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
+}
+
+.profile-photo{
+    max-width: 54px;
+    padding-top: 27px;
+    padding-right: 16px;
+    padding-left: 10px;
 }

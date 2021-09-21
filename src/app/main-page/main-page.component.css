@@ -36,7 +36,7 @@
     font-size: small;
 }
 
-.announcement-tools-container button{
+.announcement-tools-container button,.button-containers .save{
     background-color: #04AA6D;
     padding: 4px;
     margin-right: 10px;
@@ -112,15 +112,7 @@
     border-style: groove;
     border-color: rgba(0,0,0,.05);
     border-width: 3px;
-    width: 87px;
-}
-
-.date-input::-webkit-input-placeholder {
-    /* IE 10- */
-    background-image: url('../../assets/images/icons8-calendar-64.png');
-    background-size:contain;
-    background-repeat: no-repeat;
-    text-indent: 20px;
+    width: 134px;
 }
 
 .announcement-description{
@@ -129,4 +121,19 @@
     border-width: 3px;
     width:100%;
     resize: none;
+}
+
+.button-containers{
+    float: right;
+    color: white;
+    margin-top: 25px;
+}
+
+.button-containers .cancel{
+    background-color: rgba(0,0,0,.05);
+    padding: 4px;
+    margin-right: 10px;
+    color: black;
+    font-size: small;
+    padding: 8px;
 }
