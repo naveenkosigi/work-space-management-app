@@ -73,12 +73,13 @@
 
 .form-title{
     border-width: 2px;
-    border-color: rgba(0,0,0,.05);
     width: 100%;
     margin-top: 4px;
     border-width: 3px;
-    border-style: groove;
     padding: 2px;
+    border: 2px solid #04AA6D;
+    border-radius: 22px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .category-wrapper{
@@ -109,18 +110,18 @@
 }
 
 .date-input{
-    border-style: groove;
-    border-color: rgba(0,0,0,.05);
-    border-width: 3px;
+    border: 2px solid #04AA6D;
     width: 134px;
+    border-radius: 22px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .announcement-description{
-    border-style: groove;
-    border-color: rgba(0,0,0,.05);
-    border-width: 3px;
+    border: 2px solid #04AA6D;
     width:100%;
     resize: none;
+    border-radius: 22px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .button-containers{
@@ -187,5 +188,10 @@
 }
 
 .close{
-    
+    width: 17px;
+    vertical-align: middle;
+}
+
+.announcement-form label{
+    color: black;
 }
