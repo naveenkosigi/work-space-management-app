@@ -44,3 +44,17 @@
     padding-right: 16px;
     padding-left: 10px;
 }
+
+.slider-animate{
+    animation: slider 1s ease-in;
+}
+
+@keyframes slider {
+    0%{
+        transform: translateX(1000px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
