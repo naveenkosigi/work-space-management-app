@@ -181,3 +181,7 @@
     background-color: #04AA6D;
     cursor: pointer;
 }
+
+.announcement-text{
+    font-size: 15px;
+}
