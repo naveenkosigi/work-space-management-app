@@ -178,4 +178,5 @@
 
 .navigation-bar .highlight:hover,.navigation-bar .highlight.active{
     background-color: #04AA6D;
+    cursor: pointer;
 }
