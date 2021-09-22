@@ -48,11 +48,11 @@
 
                 <div class="category-wrapper">
                     <label>Select Category</label><br>
-                    <button type="button" [ngClass]="{'active':eventType === 'announcement'}">Announcement</button> &nbsp;
-                    <button type="button" [ngClass]="{'active':eventType === 'event'}" (click)="addEventTypeContainer()">Event</button>    &nbsp;
-                    <button type="button" [ngClass]="{'active':eventType === 'reminder'}">Reminder</button> &nbsp;
+                    <button type="button" (click)="addNewAnnouncement()" class="announcement-button">Announcement</button> &nbsp;
+                    <button type="button" (click)="addEventTypeContainer()" class="event-button">Event</button>    &nbsp;
+                    <button type="button" class="reminder-button">Reminder</button> &nbsp;
                 </div>
-                <div class="announcement-type-container" *ngIf="eventType === 'announcement'">
+                <div class="announcement-type-container" style="display: none;" #announcementTypeContainer>
                     <div class="date-wrapper">
                         <label style="display: inline-block;margin-bottom: 3px;">Expiry Date</label> <br>
                         <input type="date" class="date-input" placeholder="date">

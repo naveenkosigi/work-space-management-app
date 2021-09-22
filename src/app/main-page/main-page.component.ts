@@ -8,7 +8,7 @@ import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angula
 export class MainPageComponent implements OnInit,AfterViewInit {
   @ViewChild('modal',{static:false}) modal :any;
   @ViewChild('eventTypeContainer',{static:false}) eventTypeContainer : any;
-  eventType:string="announcement";
+  @ViewChild('announcementTypeContainer',{static:false}) announcementTypeContainer:any;
 
   announcements=[{title:'New announcement',description:'dassndadasdsa asdsajknsdajknsdakjndsaads dsj dssdandskjasdjknadsjsaddsasd kdsasjkdansdnsdkjnsdkjnsdjknsadkjndsajkasdnjkdsa sadasjnsdakjnsdkjasndjsadns dadsansadnkjsadnasjdnkjsdansad sanasdjkndsanasdsda',
   date:'04 Feb, 2019'
@@ -63,8 +63,18 @@ export class MainPageComponent implements OnInit,AfterViewInit {
   }
 
   addEventTypeContainer() : void{
-    this.eventType="event";
     this.eventTypeContainer.nativeElement.style.display="block";
     this.eventTypeContainer.nativeElement.classList.add('slider-animate');
+    this.announcementTypeContainer.nativeElement.style.display="none";
+    this.modal.nativeElement.getElementsByClassName("event-button")[0].classList.add("active");
+    this.modal.nativeElement.getElementsByClassName("announcement-button")[0].classList.remove("active");
+  }
+
+  addNewAnnouncement():void{
+    this.announcementTypeContainer.nativeElement.style.display="block";
+    this.announcementTypeContainer.nativeElement.classList.add('slider-animate');
+    this.eventTypeContainer.nativeElement.style.display="none";
+    this.modal.nativeElement.getElementsByClassName("announcement-button")[0].classList.add("active");
+    this.modal.nativeElement.getElementsByClassName("event-button")[0].classList.remove("active");
   }
 }
