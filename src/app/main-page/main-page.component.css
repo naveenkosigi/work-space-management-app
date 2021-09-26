@@ -111,7 +111,6 @@
 }
 
 .date-wrapper,.description-wrapper{
-    margin-top: 39px;
 }
 
 .date-input{
@@ -217,4 +216,14 @@
 
 .hover-cursor:hover{
     cursor: pointer;
+}
+
+.time-wrapper{
+    display: inline-block;
+    float: right;
+}
+
+.date-wrapper{
+    display: inline-block;
+    float: left;
 }
